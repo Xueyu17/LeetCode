@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 输入:baca
  * 输出:16331
  */
-public class tecentTest {
+public class TecentTest {
     /**
      * 打表式 16276 = 25^3 + 25^2 + 25 + 1
      * @param args
