@@ -26,7 +26,7 @@ public class TecentTest {
             return;
         }
         for( int i = 0; i < len; ++ i){
-            if( s.charAt(i) < 'a' || s.charAt(i) > 'c'){
+            if( s.charAt(i) < 'a' || s.charAt(i) > 'y'){
                 System.out.println("input error");
                 return;
             }
