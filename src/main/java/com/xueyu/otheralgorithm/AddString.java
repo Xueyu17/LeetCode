@@ -73,8 +73,7 @@ public class AddString {
         }
         //处理高位为零的情况
         int index = this.getFirstNoZeroIndex(rs);
-        rs = rs.substring(index+1, rs.length());
-
+        rs = rs.substring(index, rs.length());
         System.out.println(rs);
     }
 
@@ -86,7 +85,7 @@ public class AddString {
     public int getFirstNoZeroIndex( String s){
         int index = 0;
         while(index < s.length()){
-            if( s.charAt(index)=='0' && s.charAt(index+1)=='0'){
+            if( s.charAt(index)=='0'){
                 index++;
             }else {
                 break;
