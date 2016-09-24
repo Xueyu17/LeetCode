@@ -11,13 +11,11 @@ import java.util.List;
  */
 public class SumOfkNumber {
     private static List<Integer> resultArray = new ArrayList<Integer>();
-    private static int cnt = 0;
     @Test
     public void test(){
         int[] array = {7,4,6,2,3,8,5,9};
         Arrays.sort(array);
         sumOfkNumber(array, 0, array.length, 15);
-        System.out.println("total methods: "+cnt);
     }
     public void sumOfkNumber(int[] arr, int start, int n, int sum){
         if( sum == 0){//递归出口
